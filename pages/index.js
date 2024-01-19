@@ -74,7 +74,7 @@ const Index = () => {
                 rel="noopener noreferrer" // For security reasons
                 className="btn-blue mt-2"
               >
-                Open Image
+                Download
               </a>
             </div>
             ))}
