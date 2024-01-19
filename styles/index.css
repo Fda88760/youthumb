@@ -1,23 +1,17 @@
 /* This is where the default styles for your application can be defined */
 
 /* Set the base font and background color for the entire app */
-/* styles/index.css */
 
-.page-content {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+.nav-link {
+  color: #0070f3; /* Blue color for the text */
+  text-decoration: none; /* Removes underline from links */
+  padding: 10px; /* Adds space around the text */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s; /* Smooth transition for color change */
 }
 
-.page-title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.page-text {
-  font-size: 1.25rem;
-  color: #555;
+.nav-link:hover {
+  color: #0366d6; /* Darker blue color on hover */
 }
 
 

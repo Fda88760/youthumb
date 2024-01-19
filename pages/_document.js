@@ -5,13 +5,13 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        <nav className="header-nav">
-          <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-          </ul>
-      </nav>
+        <nav>
+        <ul>
+            <li><a href="/" className="nav-link">Home</a></li>
+            <li><a href="/about-us" className="nav-link">About Us</a></li>
+            <li><a href="/privacy-policy" className="nav-link">Privacy Policy</a></li>
+        </ul>
+    </nav>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
