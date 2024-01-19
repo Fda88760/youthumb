@@ -4,6 +4,7 @@
 /* Style the navigation bar background */
 
 nav {
+  text-align: center; /* Center-align the nav links */
   background-color: #f8f8f8; /* Light grey background */
   padding: 10px; /* Spacing inside the navigation bar */
   border-bottom: 1px solid #e7e7e7; /* Bottom border for the navigation bar */
@@ -35,6 +36,8 @@ nav ul li a.active {
 
 
 .nav-link {
+  display: inline-block; /* Display links in a row */
+  margin-right: 20px; /* Add some spacing between the links */
   color: #0070f3; /* Blue color for the text */
   text-decoration: none; /* Removes underline from links */
   padding: 10px; /* Adds space around the text */
