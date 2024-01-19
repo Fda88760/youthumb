@@ -5,14 +5,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        // In the Header component
-          <nav>
-              <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/about-us">About Us</a></li>
-                  <li><a href="/privacy-policy">Privacy Policy</a></li>
-              </ul>
-          </nav>
+<nav className="bg-gray-800 p-4">
+    <ul className="flex space-x-4">
+        <li><a href="/" className="text-white hover:text-gray-300">Home</a></li>
+        <li><a href="/about-us" className="text-white hover:text-gray-300">About Us</a></li>
+        <li><a href="/privacy-policy" className="text-white hover:text-gray-300">Privacy Policy</a></li>
+    </ul>
+</nav>
+
           <link
             rel="apple-touch-icon"
             sizes="180x180"
