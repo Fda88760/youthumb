@@ -5,6 +5,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        // In the Header component
+          <nav>
+              <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about-us">About Us</a></li>
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+              </ul>
+          </nav>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
