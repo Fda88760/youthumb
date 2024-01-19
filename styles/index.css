@@ -1,6 +1,38 @@
 /* This is where the default styles for your application can be defined */
 
 /* Set the base font and background color for the entire app */
+/* Style the navigation bar background */
+
+nav {
+  background-color: #f8f8f8; /* Light grey background */
+  padding: 10px; /* Spacing inside the navigation bar */
+  border-bottom: 1px solid #e7e7e7; /* Bottom border for the navigation bar */
+}
+
+/* Center the navigation menu */
+nav ul {
+  text-align: center;
+}
+
+/* Make the navigation links look like buttons */
+nav ul li a {
+  border: 1px solid transparent; /* Border to show on hover */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+/* Change the background and border color on hover */
+nav ul li a:hover {
+  background-color: #e7e7e7; /* Light grey background on hover */
+  border-color: #ddd; /* Border color on hover */
+}
+
+/* Indicate the active page */
+nav ul li a.active {
+  background-color: #0070f3; /* Blue background for active link */
+  color: white; /* White text for active link */
+  border-color: #0056b3; /* Darker blue border for active link */
+}
+
 
 .nav-link {
   color: #0070f3; /* Blue color for the text */
