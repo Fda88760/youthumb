@@ -6,12 +6,11 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
         <nav>
-        <ul>
             <a href="/" className="nav-link">Home</a>
             <a href="/about-us" className="nav-link">About Us</a>
             <a href="/privacy-policy" className="nav-link">Privacy Policy</a>
-
-    </nav>
+        </nav>
+        
           <link
             rel="apple-touch-icon"
             sizes="180x180"
