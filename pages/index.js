@@ -58,20 +58,25 @@ const Index = () => {
           Download Thumbnails
         </button>
       </div>
+
+      
       {thumbnailOptions.length > 0 && (
         <div className="mt-8">
           <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
-                <img src={option.url} alt={`Thumbnail ${index + 1}`} />
-                <button
-                  className="btn-blue mt-2"
-                  onClick={() => copy(option.url)}
-                >
-                  Copy Image URL
-                </button>
-              </div>
+              <img src={option.url} alt={`Thumbnail ${index + 1}`} />
+              {/* Change this button to an anchor tag */}
+              <a
+                href={option.url}
+                target="_blank"
+                rel="noopener noreferrer" // For security reasons
+                className="btn-blue mt-2"
+              >
+                Open Image
+              </a>
+            </div>
             ))}
           </div>
         </div>
