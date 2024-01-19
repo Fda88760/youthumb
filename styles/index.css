@@ -4,6 +4,8 @@
 /* Style the navigation bar background */
 
 nav {
+  display: flex;
+  justify-content: center; /* Center the links */
   text-align: center; /* Center-align the nav links */
   background-color: #f8f8f8; /* Light grey background */
   padding: 10px; /* Spacing inside the navigation bar */
@@ -36,6 +38,7 @@ nav ul li a.active {
 
 
 .nav-link {
+  margin-right: 20px; /* Add some spacing between the links */
   display: inline-block; /* Display links in a row */
   margin-right: 20px; /* Add some spacing between the links */
   color: #0070f3; /* Blue color for the text */
