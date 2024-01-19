@@ -3,6 +3,25 @@
 /* Set the base font and background color for the entire app */
 /* styles/index.css */
 
+/* styles/index.css */
+
+.page-content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.page-text {
+  font-size: 1.25rem;
+  color: #555;
+}
+
 
 body {
   font-family: Arial, sans-serif;
