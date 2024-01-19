@@ -12,6 +12,12 @@ nav {
   border-bottom: 1px solid #e7e7e7; /* Bottom border for the navigation bar */
 }
 
+.btn-blue {
+  text-decoration: none; /* Removes underline */
+  /* ... other styles ... */
+}
+
+
 /* Center the navigation menu */
 nav ul {
   text-align: center;
