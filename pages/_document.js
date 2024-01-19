@@ -7,10 +7,10 @@ class MyDocument extends Document {
         <Head>
         <nav>
         <ul>
-            <li><a href="/" className="nav-link">Home</a></li>
-            <li><a href="/about-us" className="nav-link">About Us</a></li>
-            <li><a href="/privacy-policy" className="nav-link">Privacy Policy</a></li>
-        </ul>
+            <a href="/" className="nav-link">Home</a>
+            <a href="/about-us" className="nav-link">About Us</a>
+            <a href="/privacy-policy" className="nav-link">Privacy Policy</a>
+
     </nav>
           <link
             rel="apple-touch-icon"
